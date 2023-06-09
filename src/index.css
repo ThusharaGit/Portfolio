@@ -14,69 +14,168 @@ body{
   
   
 }
-/* page1............ */
+/* Homepage............ */
 .app{
-  
-  background-position: center;
-  background-repeat: repeat;
-  background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  
+  
 }
 .welcome{
-  color: rgb(27, 175, 201);
-  font-size: 3em;
-  /* text-shadow: 2px 2px 10px rgb(0, 0, 0); */
+  color: rgb(49, 146, 30);
+  font-size: 4em;
+   margin-bottom: 10px;
+   text-shadow: 1px 1px 5px rgb(184, 185, 185); 
 }
 .exclamation{
   color: rgb(27, 201, 128);
   
 }
 .fullName{
-  color: rgb(243, 49, 65);
+  color: rgb(30, 135, 143);
   
   font-size: 1.2em;
 }
 .position{
-  color: rgb(27, 201, 70);
+  color: rgb(238, 120, 130);
+  font-size: 2.5em;
+  margin-top: 20px;
+  text-shadow: 1px 1px 5px rgb(184, 185, 185); 
+  
   
 }
 p{
-  color: rgb(6, 35, 48);
+  color: rgb(70, 71, 71);
+  margin-top: 30px;
+  font-size: 1.5em;
+  text-shadow: 1px 1px 5px rgb(184, 185, 185); 
  
 }
 .intro{
   color: rgb(0, 0, 0);
+  text-shadow: 1px 1px 5px rgb(184, 185, 185); 
 }
 .mainDiv{
-  margin-top: 300px;
- 
-   padding: 20px; 
-}
-
-.nav{
-  height: 100px;
-  width: 100%;
-  background-color: rgb(141, 170, 87);
-  box-shadow: 2px 2px 10px rgb(0, 0, 0);
-  display: flex;
+  margin: 20px;
+  display: flex; 
   flex-direction: row;
   justify-content: center;
   justify-items: center;
   align-items: center;
+  margin-left: 0;
+  gap: 350px;
+  
+  
+}
+.bgImage{
+  height: 600px;
+  width: 830px;
+  background-image: url(https://img.freepik.com/free-vector/programmer-working-web-development-code-engineer-programming-python-php-java-script-computer_90220-249.jpg?w=1380&t=st=1686313665~exp=1686314265~hmac=c53d0bb413ff4de6b6752906bb20df6a9894261f0c524331605998aecb425117);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  right: 260px;
+  z-index: -1;
+  opacity: 50%;
+}
+
+.nav{
+  height: 80px;
+  width: 100%;
+  box-shadow: 1px 1px 5px rgb(184, 185, 185);
+  font-size: 1.3em;
  
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  justify-items: center;
+  
+  
+}
+.footer{
+ 
+  box-shadow: 1px 1px 5px rgb(184, 185, 185);
+  font-size: 1.2em; 
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  justify-items: center;
+  
+}
+.grow {
+  flex-grow: 1;
 }
 a{
   text-decoration: none;
-  color: white;
+  color: rgb(0, 0, 0);
   margin:7px;
-  font-size: 1.1em;
+  font-size: 1.5em;
   
   
 }
+.image{
+  height: 250px;
+  width: 250px;
+  border-radius: 20px ;
+  background-image: url(./assets/Thushara.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 1px 1px 5px rgb(184, 185, 185);
+  
+}
+.imageWrapper{
+  width: 40%;
+  height: 300px;
+  width: 300px;
+  border-radius: 20px ;
+  border: 1px solid rgb(233, 236, 236);
+  box-shadow: 1px 1px 5px rgb(184, 185, 185);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.homeDetails{
+  margin: 30px;
+  width: 30%;
+  padding: 20px;
+  box-shadow: 1px 1px 5px rgb(184, 185, 185);
+  border-radius: 20px;
+  margin-bottom: 50px;
+  
+}
 
-
+.photoButton{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+button{
+  width: 300px;
+  height: 50px;
+  border-radius: 20px;
+  background-color: rgb(243, 126, 141);
+  box-shadow: 1px 1px 5px rgb(184, 185, 185);
+  font-size: 1.5em;
+  color: rgb(248, 248, 248);
+  text-shadow: 1px 1px 5px rgb(184, 185, 185); 
+  
+}
+button:hover{
+  cursor: pointer;
+  background-color: transparent;
+  color: rgb(243, 126, 141);
+  
+}
+.icons:hover{
+  box-shadow: 1px 1px 5px rgb(184, 185, 184);
+  background-color: rgb(237, 250, 239);
+  border-radius: 5px;
+}
