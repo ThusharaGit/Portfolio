@@ -179,3 +179,20 @@ button:hover{
   background-color: rgb(237, 250, 239);
   border-radius: 5px;
 }
+.navigate{
+  display: flex;
+  flex-direction: column;
+}
+.navComponent {
+  display: none;
+}
+.icons {
+  position: relative;
+}
+.box{
+  position: absolute;
+  top: 80px;
+  text-shadow: 1px 1px 5px rgb(184, 185, 185); 
+  color: rgb(72, 73, 73);
+  
+}
