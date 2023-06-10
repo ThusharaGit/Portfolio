@@ -1,5 +1,8 @@
 import React from 'react'
 
+
+
+
 function NavigateBtn({ setCurrentItem, currentItem, item, name, color }) {
 
     function hoverHandler(item) {
@@ -9,15 +12,15 @@ function NavigateBtn({ setCurrentItem, currentItem, item, name, color }) {
     return (
         <div >
             <div className='navigate'>
-                <a
-                    href=""
+                <button 
+                    
                     style={{ color: color }}
-                    className="icons"
+                    className="icons navigateBtn"
                     onMouseEnter={() => hoverHandler(item)}
                     onMouseLeave={() => hoverHandler("")}
                 >
                     <ion-icon name={`${name}-outline`} ></ion-icon>
-                </a>
+                </button>
                 <div className='box'>{currentItem == item ? item : ""}&nbsp;</div>
             </div>
         </div>

@@ -1,22 +1,30 @@
-import { useState,useNavigate,useEffect } from 'react'
+import { useState} from 'react'
 import data from './assets/data.json'
-import Footer from './components/Footer'
+
 import Home from './components/Home'
 import Nav from './components/Nav'
+import {Routes,Route} from 'react-router-dom'
+import About from './components/About'
+import Projects from './components/Projects'
+import Services from './components/Services'
 
 
 function App() {
   const [count, setCount] = useState(0)
+  
+
 
   return (
     <div className='app'>
       <Nav/>
-      <Home data={data}/>
-      <Footer/>
+      <Routes>
+      <Route path='/' element = {<Home data={data}/>}/> 
+      <Route path='/about' element = {<About/>}/> 
+      <Route path='/projects' element = {<Projects/>}/>
+      <Route path='/services' element = {<Services/>}/> 
       
-
-
-
+      
+      </Routes>
     </div>
   )
 }

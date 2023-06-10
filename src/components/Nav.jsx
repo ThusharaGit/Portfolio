@@ -1,10 +1,14 @@
 import React from 'react'
 import { useState } from 'react';
 import NavigateBtn from './NavigateBtn';
+import {useNavigate} from 'react-router-dom'
+
 
 function Nav() {
 
   const [currentItem, setCurrentItem] = useState()
+  const navigate = useNavigate()
+  
 
 
   return (
@@ -16,6 +20,7 @@ function Nav() {
         item="Home"
         name="home"
         color="rgb(250, 117, 139)"
+        
       />
       <NavigateBtn
         setCurrentItem={setCurrentItem}
@@ -23,6 +28,7 @@ function Nav() {
         item="About"
         name="person"
         color="rgb(86, 189, 175)"
+        onClick={()=>navigate('/about')}
       />
       <NavigateBtn
         setCurrentItem={setCurrentItem}

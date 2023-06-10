@@ -15,7 +15,7 @@ function Home({ data }) {
                 <div className='imageWrapper'>
                     <div className='image'></div>
                 </div>
-                <div><button>Download CV</button></div>
+                <div><button className='cvBtn'>Download CV</button></div>
             </div>
         </div>
 
