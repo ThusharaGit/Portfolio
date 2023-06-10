@@ -3,7 +3,7 @@ import React from 'react'
 
 
 
-function NavigateBtn({ setCurrentItem, currentItem, item, name, color }) {
+function NavigateBtn({ setCurrentItem, currentItem, item, name, color, navigate, path}) {
 
     function hoverHandler(item) {
         setCurrentItem(item);
@@ -12,8 +12,8 @@ function NavigateBtn({ setCurrentItem, currentItem, item, name, color }) {
     return (
         <div >
             <div className='navigate'>
-                <button 
-                    
+                <button onClick={() => navigate(path)}
+
                     style={{ color: color }}
                     className="icons navigateBtn"
                     onMouseEnter={() => hoverHandler(item)}

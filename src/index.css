@@ -197,3 +197,11 @@ button:hover{
   color: rgb(72, 73, 73);
   
 }
+/* about page..... */
+.aboutPg{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
