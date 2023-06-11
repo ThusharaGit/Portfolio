@@ -1,14 +1,14 @@
 import React from 'react'
 
-function Home({ data }) {
+function Home({ about }) {
     return (
         <div className='mainDiv grow'>
 
             <div className='homeDetails'>
                 <h1 className='welcome'>Hello<span className='exclamation'>!</span></h1>
-                <h2 className='intro'>I'm <span className='fullName'>{data[1].fullName}</span> </h2>
+                <h2 className='intro'>I'm <span className='fullName'>{about.fullName}</span> </h2>
                 <h1 className='position'>Frontend Developer</h1>
-                <p>{data[2].firstPageInfo}</p>
+                <p>{about.firstPageInfo}</p>
             </div>
             <div className='bgImage'></div>
             <div className='photoButton'>

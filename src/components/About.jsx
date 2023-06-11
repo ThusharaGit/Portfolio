@@ -1,17 +1,13 @@
 import React from 'react'
 import AboutSkills from './AboutSkills'
-import { useState } from 'react'
 
-
-
-function About({ data }) {
-
+function About({ about }) {
   return (
     <div className='aboutPg grow'>
       <div className='aboutDiv'>
         <div className='aboutDesc'>
           <h1 className='aboutHeading'>About Me</h1>
-          <p>{data[3].secondPageInfo}</p>
+          <p>{about.secondPageInfo}</p>
         </div>
         <div className='aboutImg'></div>
       </div>
