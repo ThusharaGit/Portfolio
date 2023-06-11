@@ -5,9 +5,9 @@ import Project from './Project'
 function Projects({ projects }) {
   return (
     <div className='grow projectsPg'>
-      <h1>My Projects</h1>
+      <h1 className='projectHeading' style={{fontSize:'2.5em', margin: '20px'}}>My Projects</h1>
       {
-        projects.map(p => <Project project={p} />)
+        projects.map(p => <Project key={p.name} project={p} />)
       }
     </div>
   )

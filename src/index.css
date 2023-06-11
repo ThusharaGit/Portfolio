@@ -230,28 +230,17 @@ p{
   display: flex;
   flex-direction: column;
   width: 50%;
+  text-align: justify;
   
 }
-.aboutHeading{
-  font-size: 2em;
-  margin-bottom:30px ;
-  text-align: center;
-  width: 100%;
-  box-shadow: 1px 1px 5px rgb(184, 185, 185);
-  text-shadow: 5px 5px 10px rgb(184, 185, 185); 
-  border-radius: 20px;
-  color: rgb(228, 46, 91);
-  background-image: url(https://marketplace.canva.com/EAEvZ3NDFto/1/0/1600w/canva-blush-wave-linkedin-banner-nuNmg4S1vq8.jpg); 
-  
-}
+
 .aboutSubHeading {
   font-size: 2em;
   text-align: center;
   width: 76%;
   box-shadow: 1px 1px 5px rgb(184, 185, 185);
-  text-shadow: 5px 5px 10px rgb(184, 185, 185); 
   border-radius: 20px;
-  color: rgb(228, 46, 91);
+  color: black;
   background-image: url(https://marketplace.canva.com/EAEvZ3NDFto/1/0/1600w/canva-blush-wave-linkedin-banner-nuNmg4S1vq8.jpg); 
 }
 .skillsDiv{
@@ -332,5 +321,46 @@ p{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-image: url(https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.aboutHeading{
+  font-size: 2.5em;
+  text-align: center;
+  width: 500px;
+  padding: 2px;
+  box-shadow: 1px 1px 5px rgb(184, 185, 185);
+  border-radius: 20px;
+  color: black;
+  background-image: url(https://marketplace.canva.com/EAEvZ3NDFto/1/0/1600w/canva-blush-wave-linkedin-banner-nuNmg4S1vq8.jpg); 
+  
+}
+
+.projectHeading{
+  background-image: url(https://cdn.shopify.com/s/files/1/0593/2187/6633/files/Header-panels-01_720x.jpg?v=1638079056);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 2px;
+  border-radius: 15px;
+  width: 400px;
+  text-align: center;
+  box-shadow: 1px 1px 5px rgb(184, 185, 185);
+  position: absolute;
+  top: 100px;
+}
+.servicesHeading{
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/007/046/014/small/abstract-white-and-grey-pattern-background-design-abstract-graphic-design-white-and-grey-banner-pattern-background-web-template-abstract-white-wallpaper-abstract-white-background-free-vector.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 2px;
+  border-radius: 15px;
+  width: 480px;
+  text-align: center;
+  box-shadow: 1px 1px 5px rgb(184, 185, 185);
+  /* margin-top: 40px; */
 }
 

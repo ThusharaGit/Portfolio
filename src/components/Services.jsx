@@ -8,7 +8,7 @@ function Services({ skills }) {
 
   return (
     <div className='grow servicesPg'>
-      <h1 style={{fontSize:'2.5em'}}>My Services</h1>
+      <h1 className='servicesHeading' style={{fontSize:'2.5em'}}>My Services</h1>
       <div className='servicesDiv'>
         {skills.map(({name, desc, color}) =>
           <div className='card' key={name} style={{ backgroundImage: `linear-gradient(45deg, ${color})` }} >

@@ -2,39 +2,65 @@
     "about": {
         "name": "Thushara",
         "fullName": "Thushara Weeraparakrama",
-        "firstPageInfo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugiat eos ipsam id at accusamus quod sed voluptatem sunt vel facilis repudiandae, dignissimos dolorum eum beatae adipisci",
-        "secondPageInfo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugiat eos ipsam id at accusamus quod sed voluptatem sunt vel facilis repudiandae, dignissimos dolorum eum beatae adipisci,      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugiat eos ipsam id at accusamus quod sed voluptatem sunt vel facilis repudiandae, dignissimos dolorum eum beatae adipisci,"
+        "firstPageInfo": "I've been drawing and playing with colours since childhood. Also I still feel like design is everywhere. As a frontend developer I enjoy designing websites and adding colours to everything I create.  ",
+        "secondPageInfo": "My name is Thushara Weeraparakrama and I'm currently a Frontend development student in ReDI School-Munich. I like to design and create websites and I'm searching for a job in Frontend development. I try to look at everything in an artistic way. Also I implement my learning from the school and external sources in to my creations. When I get free times I read articles about new trends and applications in Frontend development. I always enjoy from everything I create and design and there is always some thing new to learn. ",
+        "skills": [
+            {
+                "color": "salmon",
+                "skill": "HTML"
+            },
+            {
+                "color": "rgb(88, 150, 150)",
+                "skill": "CSS"
+            },
+            {
+                "color": "rgb(113, 115, 116)",
+                "skill": "JS"
+            },
+            {
+                "color": "rgb(235, 92, 111)",
+                "skill": "React"
+            },
+            {
+                "color": "rgb(57, 136, 110)",
+                "skill": "Git"
+            },
+            {
+                "color": "rgb(226, 199, 126)",
+                "skill": "UI/UX"
+            }
+        ]
     },
     "skills": [
         {
             "name": "web Design",
             "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugiat eos ipsam id at accusamus quod sed",
-            "color": "rgb(247, 167, 178),rgb(209, 69, 88)"
+            "color": "transparent,rgb(247, 167, 178),rgb(209, 69, 88)"
         },
         {
             "name": "Logo Design",
             "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugiat eos ipsam id at accusamus quod sed",
-            "color": "rgb(112, 211, 214),rgb(12, 170, 123)"
+            "color": "transparent,rgb(112, 211, 214),rgb(12, 170, 123)"
         },
         {
             "name": "Video Editing",
             "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugiat eos ipsam id at accusamus quod sed",
-            "color": "rgb(223, 210, 99),rgb(248, 74, 21)"
+            "color": "transparent,rgb(223, 210, 99),rgb(248, 74, 21)"
         },
         {
             "name": "App Testing",
             "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugiat eos ipsam id at accusamus quod sed",
-            "color": "rgb(241, 189, 220),rgb(245, 70, 236)"
+            "color": "transparent,rgb(241, 189, 220),rgb(245, 70, 236)"
         },
         {
             "name": "UI/UX Design",
             "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugiat eos ipsam id at accusamus quod sed",
-            "color": "rgb(208, 209, 209),rgb(106, 106, 107)"
+            "color": "transparent,rgb(208, 209, 209),rgb(106, 106, 107)"
         },
         {
             "name": "Graphic Design",
             "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugiat eos ipsam id at accusamus quod sed",
-            "color": "rgb(193, 248, 248),rgb(3, 180, 180)"
+            "color": "transparent,rgb(193, 248, 248),rgb(3, 180, 180)"
         }
     ],
     "projects": [

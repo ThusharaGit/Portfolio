@@ -1,0 +1,89 @@
+.contactPg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 30px;
+    background-image: url(https://t3.ftcdn.net/jpg/02/53/91/26/360_F_253912686_qJJaXiD7DebyBj6Gzb9SKRqTnhTr476k.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form {
+    height: 100%;
+    width: 80%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+}
+
+.textArea {
+    background-color: rgb(232, 236, 236);
+    width: 500px;
+    height: 450px;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 1px 1px 10px rgb(184, 185, 185);
+
+}
+
+.contactHeading {
+    font-size: 2.5em;
+    background-image: url(https://img.freepik.com/premium-vector/technology-data-background-idea-global-business-solution_118331-1082.jpg?w=360);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 2px;
+    border-radius: 15px;
+    width: 500px;
+    text-align: center;
+    box-shadow: 1px 1px 5px rgb(184, 185, 185);
+    position: absolute;
+    top: 120px;
+
+
+
+}
+
+.contactBtn {
+    position: absolute;
+    top: 400px;
+    right: 380px;
+    font-size: 2.5em;
+    background-color: transparent;
+    color: rgb(238, 27, 90);
+
+}
+
+.contactBtn:hover {
+    font-size: 3em;
+    cursor: pointer;
+}
+
+.Infobox {
+    display: flex;
+    gap: 50px;
+    background-color: rgb(232, 236, 236);
+    padding: 20px;
+    border-radius: 20px;
+    width: 500px;
+    box-shadow: 1px 1px 10px rgb(184, 185, 185);
+
+}
+
+.InfoIcon {
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    color: rgb(47, 151, 116);
+
+}

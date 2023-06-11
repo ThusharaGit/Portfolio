@@ -1,10 +1,46 @@
 .project {
-    background-color: rgb(179, 226, 226);
+    background-image: linear-gradient(45deg,rgb(200, 216, 219),rgb(228, 180, 148)) ;
     border-radius: 15px;
-   
-    margin: 20px;
+    margin: 10px;
     padding: 20px;
     width: 25%;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+    color: rgb(119, 30, 64);
+    gap: 10px;
 }
 
+.Nimgdiv {
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    border-radius: 15px;
+    background-image: url(https://logowik.com/content/uploads/images/netlify-new-20234970.logowik.com.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    scale: 85%;
+}
+
+.Gimgdiv {
+    height: 50px;
+    width: 100px;
+    background-color: black;
+    border-radius: 15px;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/016/833/880/original/github-logo-git-hub-icon-with-text-on-white-background-free-vector.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    scale: 85%;
+}
+.projectBtn{
+    display: flex;
+    flex-direction: row;
+    
+}
+.icon {
+    font-size: 3em;
+    
+}
