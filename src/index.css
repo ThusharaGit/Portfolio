@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&family=Anuphan&family=Archivo:ital,wght@1,100&family=Barlow+Semi+Condensed:wght@300&family=Black+Ops+One&family=Henny+Penny&family=Inter:wght@700&family=Josefin+Sans&family=Montserrat+Alternates&family=Open+Sans&family=Righteous&family=Roboto&family=Shantell+Sans&family=Stick+No+Bills&display=swap');
 
-*{
+* {
   border: 0;
   padding: 0;
   margin: 0;
@@ -8,68 +8,71 @@
   font-family: 'Open Sans', sans-serif;
 }
 
-body{
+body {
   height: 100vh;
   width: 100vw;
-  
-  
 }
+
 /* Homepage............ */
-.app{
+.app {
   min-height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
-  
-  
 }
-.welcome{
+
+.welcome {
   color: rgb(49, 146, 30);
   font-size: 4em;
-   margin-bottom: 10px;
-   text-shadow: 1px 1px 5px rgb(184, 185, 185); 
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 5px rgb(184, 185, 185);
 }
-.exclamation{
+
+.exclamation {
   color: rgb(27, 201, 128);
-  
+
 }
-.fullName{
+
+.fullName {
   color: rgb(30, 135, 143);
-  
+
   font-size: 1.2em;
 }
-.position{
+
+.position {
   color: rgb(238, 120, 130);
   font-size: 2.5em;
   margin-top: 20px;
-  text-shadow: 1px 1px 5px rgb(184, 185, 185); 
-  
-  
+  text-shadow: 1px 1px 5px rgb(184, 185, 185);
+
+
 }
-p{
+
+p {
   color: rgb(70, 71, 71);
   margin-top: 30px;
   font-size: 1.5em;
-  text-shadow: 1px 1px 5px rgb(184, 185, 185); 
- 
+  text-shadow: 1px 1px 5px rgb(184, 185, 185);
+
 }
-.intro{
+
+.intro {
   color: rgb(0, 0, 0);
-  text-shadow: 1px 1px 5px rgb(184, 185, 185); 
+  text-shadow: 1px 1px 5px rgb(184, 185, 185);
 }
-.mainDiv{
+
+.mainDiv {
   margin: 20px;
-  display: flex; 
+  display: flex;
   flex-direction: row;
   justify-content: center;
   justify-items: center;
   align-items: center;
   margin-left: 0;
   gap: 350px;
-  
-  
 }
-.bgImage{
+
+.bgImage {
   height: 600px;
   width: 830px;
   background-image: url(https://img.freepik.com/free-vector/programmer-working-web-development-code-engineer-programming-python-php-java-script-computer_90220-249.jpg?w=1380&t=st=1686313665~exp=1686314265~hmac=c53d0bb413ff4de6b6752906bb20df6a9894261f0c524331605998aecb425117);
@@ -82,83 +85,81 @@ p{
   opacity: 50%;
 }
 
-.nav{
+.nav {
   height: 80px;
   width: 100%;
   box-shadow: 1px 1px 5px rgb(184, 185, 185);
   font-size: 1.3em;
- 
-
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
   justify-items: center;
-  
-  
 }
-.footer{
- 
+
+.footer {
+
   box-shadow: 1px 1px 5px rgb(184, 185, 185);
-  font-size: 1.2em; 
-
+  font-size: 1.2em;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
   justify-items: center;
-  
 }
+
 .grow {
   flex-grow: 1;
 }
-.navigateBtn{
+
+.navigateBtn {
   text-decoration: none;
   color: rgb(0, 0, 0);
-  margin:7px;
+  margin: 7px;
   font-size: 1.5em;
   background-color: transparent;
-  
-  
 }
-.image{
+
+.image {
   height: 250px;
   width: 250px;
-  border-radius: 20px ;
-  background-image: url(./assets/Thushara.jpg);
+  border-radius: 20px;
+  background-image: url("./assets/thushara.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 1px 1px 5px rgb(184, 185, 185);
-  
 }
-.imageWrapper{
+
+.imageWrapper {
   width: 40%;
   height: 300px;
   width: 300px;
-  border-radius: 20px ;
+  border-radius: 20px;
   border: 1px solid rgb(233, 236, 236);
   box-shadow: 1px 1px 5px rgb(184, 185, 185);
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.homeDetails{
+
+.homeDetails {
   margin: 30px;
   width: 30%;
   padding: 20px;
   box-shadow: 1px 1px 5px rgb(184, 185, 185);
   border-radius: 20px;
   margin-bottom: 50px;
-  
+
 }
 
-.photoButton{
+.photoButton {
   display: flex;
   flex-direction: column;
   gap: 50px;
 }
-.cvBtn{
+
+.cvBtn {
   width: 300px;
   height: 50px;
   border-radius: 20px;
@@ -166,58 +167,66 @@ p{
   box-shadow: 1px 1px 5px rgb(184, 185, 185);
   font-size: 1.5em;
   color: rgb(248, 248, 248);
-  text-shadow: 1px 1px 5px rgb(184, 185, 185); 
-  
+  text-shadow: 1px 1px 5px rgb(184, 185, 185);
+
 }
-.cvBtn:hover{
+
+.cvBtn:hover {
   cursor: pointer;
   background-color: transparent;
   color: rgb(243, 126, 141);
-  
+
 }
-.icons:hover{
+
+.icons:hover {
   box-shadow: 1px 1px 5px rgb(184, 185, 184);
   background-color: rgb(237, 250, 239);
   border-radius: 5px;
 }
-.navigate{
+
+.navigate {
   display: flex;
   flex-direction: column;
 }
+
 .navComponent {
   display: none;
 }
+
 .icons {
   position: relative;
 }
-.box{
+
+.box {
   position: absolute;
   top: 80px;
-  text-shadow: 1px 1px 5px rgb(184, 185, 185); 
+  text-shadow: 1px 1px 5px rgb(184, 185, 185);
   color: rgb(72, 73, 73);
-  
+
 }
+
 /* about page..... */
-.aboutPg{
+.aboutPg {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   justify-items: center;
   gap: 100px;
- 
 }
-.aboutImg{
+
+.aboutImg {
   height: 300px;
   width: 300px;
-  background-image: url(./assets/aboutImg.jpg);
+  background-image: url("./assets/aboutImg.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 20px;
   box-shadow: 1px 1px 5px rgb(184, 185, 185);
 }
-.aboutDiv{
+
+.aboutDiv {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -226,12 +235,13 @@ p{
   gap: 100px;
 
 }
-.aboutDesc{
+
+.aboutDesc {
   display: flex;
   flex-direction: column;
   width: 50%;
   text-align: justify;
-  
+
 }
 
 .aboutSubHeading {
@@ -241,21 +251,22 @@ p{
   box-shadow: 1px 1px 5px rgb(184, 185, 185);
   border-radius: 20px;
   color: black;
-  background-image: url(https://marketplace.canva.com/EAEvZ3NDFto/1/0/1600w/canva-blush-wave-linkedin-banner-nuNmg4S1vq8.jpg); 
+  background-image: url(https://marketplace.canva.com/EAEvZ3NDFto/1/0/1600w/canva-blush-wave-linkedin-banner-nuNmg4S1vq8.jpg);
 }
-.skillsDiv{
+
+.skillsDiv {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 30px;
-  flex-wrap:wrap ;
+  flex-wrap: wrap;
 }
 
 .circle {
   height: 180px;
   width: 180px;
-  border-radius:50%;
+  border-radius: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -263,28 +274,31 @@ p{
   color: rgb(100, 105, 105);
   box-shadow: 1px 1px 10px rgb(184, 185, 185);
   text-shadow: 5px 5px 10px rgb(184, 185, 185);
-  font-size: 1.5em; 
+  font-size: 1.5em;
 
   color: rgb(93, 94, 95);
 
 }
+
 /* services Page...... */
-.servicesPg{
+.servicesPg {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
+
 }
+
 .servicesDiv {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  
+
 }
-.card{
+
+.card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -298,25 +312,29 @@ p{
   box-shadow: 1px 1px 10px rgb(184, 185, 185);
   color: rgb(65, 66, 66);
 }
-.card:hover{
+
+.card:hover {
   cursor: pointer;
   box-shadow: 10px 10px 5px rgb(184, 185, 185);
 }
+
 .serviceBtn {
   height: 30px;
   width: 100px;
   border-radius: 10px;
   background-color: white;
 }
-.serviceBtn:hover{
+
+.serviceBtn:hover {
   color: white;
   background-color: transparent;
   font-size: 1.1em;
   cursor: pointer;
 }
+
 /* projects Page ......... */
 
-.projectsPg{
+.projectsPg {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -326,7 +344,8 @@ p{
   background-repeat: no-repeat;
   background-size: cover;
 }
-.aboutHeading{
+
+.aboutHeading {
   font-size: 2.5em;
   text-align: center;
   width: 500px;
@@ -334,11 +353,10 @@ p{
   box-shadow: 1px 1px 5px rgb(184, 185, 185);
   border-radius: 20px;
   color: black;
-  background-image: url(https://marketplace.canva.com/EAEvZ3NDFto/1/0/1600w/canva-blush-wave-linkedin-banner-nuNmg4S1vq8.jpg); 
-  
+  background-image: url(https://marketplace.canva.com/EAEvZ3NDFto/1/0/1600w/canva-blush-wave-linkedin-banner-nuNmg4S1vq8.jpg);
 }
 
-.projectHeading{
+.projectHeading {
   background-image: url(https://cdn.shopify.com/s/files/1/0593/2187/6633/files/Header-panels-01_720x.jpg?v=1638079056);
   background-position: center;
   background-size: cover;
@@ -351,7 +369,8 @@ p{
   position: absolute;
   top: 100px;
 }
-.servicesHeading{
+
+.servicesHeading {
   background-image: url(https://static.vecteezy.com/system/resources/thumbnails/007/046/014/small/abstract-white-and-grey-pattern-background-design-abstract-graphic-design-white-and-grey-banner-pattern-background-web-template-abstract-white-wallpaper-abstract-white-background-free-vector.jpg);
   background-position: center;
   background-size: cover;
@@ -363,4 +382,3 @@ p{
   box-shadow: 1px 1px 5px rgb(184, 185, 185);
   /* margin-top: 40px; */
 }
-
