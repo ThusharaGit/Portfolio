@@ -20,9 +20,9 @@ function App() {
       <Nav/>
       <Routes>
       <Route path='/' element = {<Home data={data}/>}/> 
-      <Route path='/about' element = {<About/>}/> 
+      <Route path='/about' element = {<About data={data}/>}/> 
       <Route path='/projects' element = {<Projects/>}/>
-      <Route path='/services' element = {<Services/>}/> 
+      <Route path='/services' element = {<Services data={data}/>}/> 
       <Route path='/contacts' element = {<Contacts/>}/> 
   
       </Routes>

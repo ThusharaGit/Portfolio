@@ -169,7 +169,7 @@ p{
   text-shadow: 1px 1px 5px rgb(184, 185, 185); 
   
 }
-button:hover{
+.cvBtn:hover{
   cursor: pointer;
   background-color: transparent;
   color: rgb(243, 126, 141);
@@ -204,4 +204,125 @@ button:hover{
   align-items: center;
   justify-content: center;
   justify-items: center;
+  gap: 100px;
+ 
 }
+.aboutImg{
+  height: 300px;
+  width: 300px;
+  background-image: url(./assets/aboutImg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px rgb(184, 185, 185);
+}
+.aboutDiv{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  gap: 100px;
+
+}
+.aboutDesc{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  
+}
+.aboutHeading{
+  font-size: 2em;
+  margin-bottom:30px ;
+  text-align: center;
+  width: 100%;
+  box-shadow: 1px 1px 5px rgb(184, 185, 185);
+  text-shadow: 5px 5px 10px rgb(184, 185, 185); 
+  border-radius: 20px;
+  color: rgb(228, 46, 91);
+  background-image: url(https://marketplace.canva.com/EAEvZ3NDFto/1/0/1600w/canva-blush-wave-linkedin-banner-nuNmg4S1vq8.jpg); 
+  
+}
+.aboutSubHeading {
+  font-size: 2em;
+  text-align: center;
+  width: 76%;
+  box-shadow: 1px 1px 5px rgb(184, 185, 185);
+  text-shadow: 5px 5px 10px rgb(184, 185, 185); 
+  border-radius: 20px;
+  color: rgb(228, 46, 91);
+  background-image: url(https://marketplace.canva.com/EAEvZ3NDFto/1/0/1600w/canva-blush-wave-linkedin-banner-nuNmg4S1vq8.jpg); 
+}
+.skillsDiv{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap:wrap ;
+}
+
+.circle {
+  height: 180px;
+  width: 180px;
+  border-radius:50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: rgb(100, 105, 105);
+  box-shadow: 1px 1px 10px rgb(184, 185, 185);
+  text-shadow: 5px 5px 10px rgb(184, 185, 185);
+  font-size: 1.5em; 
+
+  color: rgb(93, 94, 95);
+
+}
+/* services Page...... */
+.servicesPg{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.servicesDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+  height: 350px;
+  width: 300px;
+  padding: 30px;
+  gap: 50px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px rgb(184, 185, 185);
+  color: rgb(65, 66, 66);
+}
+.card:hover{
+  cursor: pointer;
+  box-shadow: 10px 10px 5px rgb(184, 185, 185);
+}
+.serviceBtn {
+  height: 30px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: white;
+}
+.serviceBtn:hover{
+  color: white;
+  background-color: transparent;
+  font-size: 1.1em;
+  cursor: pointer;
+}
+

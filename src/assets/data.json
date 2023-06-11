@@ -11,22 +11,31 @@
     {
         "secondPageInfo": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugiat eos ipsam id at accusamus quod sed voluptatem sunt vel facilis repudiandae, dignissimos dolorum eum beatae adipisci,      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugiat eos ipsam id at accusamus quod sed voluptatem sunt vel facilis repudiandae, dignissimos dolorum eum beatae adipisci,"
     },
-    {
-        "webDesign": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugiat eos ipsam id at accusamus quod sed"
-    },
-    {
-        "logoDesign": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugiat eos ipsam id at accusamus quod sed"
-    },
-    {
-        "VideoEditing": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugiat eos ipsam id at accusamus quod sed"
-    },
-    {
-        "appTesting": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugiat eos ipsam id at accusamus quod sed"
-    },
-    {
-        "UI/UXdesign": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugiat eos ipsam id at accusamus quod sed"
-    },
-    {
-        "GraphicDesign": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugiat eos ipsam id at accusamus quod sed"
-    }
+    [
+        {
+            "name": "web Design",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugiat eos ipsam id at accusamus quod sed",
+            "color": "rgb(247, 167, 178),rgb(209, 69, 88)"
+        },
+        {    "name": "Logo Design",
+            "desc" : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugiat eos ipsam id at accusamus quod sed",
+            "color": "rgb(112, 211, 214),rgb(12, 170, 123)"
+        },    
+        {  "name": "Video Editing",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugiat eos ipsam id at accusamus quod sed",
+            "color": "rgb(223, 210, 99),rgb(248, 74, 21)"
+        },
+        { "name": "App Testing",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugiat eos ipsam id at accusamus quod sed",
+            "color": "rgb(241, 189, 220),rgb(245, 70, 236)"
+        },
+        { "name": "UI/UX Design",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugiat eos ipsam id at accusamus quod sed",
+            "color": "rgb(208, 209, 209),rgb(106, 106, 107)"
+        },
+        {  "name": "Graphic Design",
+            "desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio, fugiat eos ipsam id at accusamus quod sed",
+            "color": "rgb(193, 248, 248),rgb(3, 180, 180)"
+        }
+    ]
 ]
