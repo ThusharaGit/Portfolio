@@ -44,8 +44,9 @@ form {
     width: 500px;
     text-align: center;
     box-shadow: 1px 1px 5px rgb(184, 185, 185);
-    position: absolute;
-    top: 120px;
+    margin-top: 20px;
+    /* position: absolute;
+    top: 120px; */
 
 
 
